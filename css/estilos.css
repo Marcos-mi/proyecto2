@@ -2,7 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-#inicio, #contacto {
+#inicio, #contacto, #sobre-nosotros {
     background-color: #e2e2e2;
 }
 #inicio h1{
@@ -11,6 +11,24 @@ body{
 .nav-link{
     color:  #131313;
 }
-#inicio .active, #sobre-nosotros .active, #contacto .active{
+.nav-link:hover{
     color: #49a5bf;
+}
+nav .active{
+    border: 1px solid  #49a5bf;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.form-control{
+    border: 1px solid #49a5bf;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #49a5bf;
+    border-radius: 20px;
+    color: #e2e2e2;
+}
+p{
+    color: #6a6a6a;
 }
